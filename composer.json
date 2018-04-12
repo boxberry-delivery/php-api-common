@@ -1,0 +1,38 @@
+{
+  "name": "dumkaaa/boxberry-api-common",
+  "type": "library",
+  "description": "Базовые компоненты для реализации Boxberry API",
+  "keywords": [
+    "boxberry",
+    "api",
+    "delivery"
+  ],
+  "homepage": "https://github.com/Dumkaaa/boxberry-api-common",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitriy Larionov",
+      "email": "dumkaaa72@gmail.com"
+    },
+    {
+      "name": "Github Contributors",
+      "homepage": "https://github.com/Dumkaaa/boxberry-api-common/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "php-http/client-implementation": "^1",
+    "php-http/message": "^1.5",
+    "php-http/discovery": "^1.2.1",
+    "symfony/http-foundation": "^2.1|^3|^4",
+    "symfony/validator": "~3"
+  },
+  "require-dev": {
+    "php-http/guzzle6-adapter": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dumkaaa\\Boxberry\\Api\\Common\\": "src"
+    }
+  }
+}

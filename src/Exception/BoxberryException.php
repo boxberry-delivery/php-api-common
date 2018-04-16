@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Exception;
+namespace Boxberry\Common\Exception;
 
 /**
  * Interface BoxberryException
  *
- * @package Dumkaaa\Boxberry\Api\Common\Exception
+ * @package Boxberry\Common\Exception
  */
 interface BoxberryException
 {

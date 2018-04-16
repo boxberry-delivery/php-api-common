@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Message\Request;
+namespace Boxberry\Common\Message\Request;
 
-use Dumkaaa\Boxberry\Api\Common\Exception\RuntimeException;
-use Dumkaaa\Boxberry\Api\Common\Helper;
-use Dumkaaa\Boxberry\Api\Common\Http\Client;
-use Dumkaaa\Boxberry\Api\Common\Message\RequestInterface;
-use Dumkaaa\Boxberry\Api\Common\Message\ResponseInterface;
+use Boxberry\Common\Exception\RuntimeException;
+use Boxberry\Common\Helper;
+use Boxberry\Common\Http\Client;
+use Boxberry\Common\Message\RequestInterface;
+use Boxberry\Common\Message\ResponseInterface;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -18,7 +18,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 /**
  * Абстрактный класс запроса
  *
- * @package Dumkaaa\Boxberry\Api\Common\Message\Request
+ * @package Boxberry\Common\Message\Request
  */
 abstract class AbstractRequest implements RequestInterface
 {

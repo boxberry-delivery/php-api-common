@@ -1,3 +1,8 @@
+docs/build
+composer.lock
+composer.phar
+phpunit.xml
+phpdoc.xml
 *.idea
-*.phar
+phpDocumentor.phar
 vendor

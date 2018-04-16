@@ -1,13 +1,16 @@
 {
-  "name": "dumkaaa/boxberry-api-common",
+  "name": "boxberry-delivery/php-api-common",
   "type": "library",
-  "description": "Базовые компоненты для реализации Boxberry API",
+  "description": "Базовые компоненты для работы с Boxberry API на PHP",
   "keywords": [
     "boxberry",
-    "api",
-    "delivery"
+    "boxberry-api",
+    "boxberry-delivery",
+    "delivery-api",
+    "delivery",
+    "api"
   ],
-  "homepage": "https://github.com/Dumkaaa/boxberry-api-common",
+  "homepage": "https://github.com/boxberry-delivery/php-api-common",
   "license": "MIT",
   "authors": [
     {
@@ -16,7 +19,7 @@
     },
     {
       "name": "Github Contributors",
-      "homepage": "https://github.com/Dumkaaa/boxberry-api-common/contributors"
+      "homepage": "https://github.com/boxberry-delivery/php-api-common/contributors"
     }
   ],
   "require": {
@@ -32,7 +35,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Dumkaaa\\Boxberry\\Api\\Common\\": "src"
+      "Boxberry\\Common\\": "src"
     }
   }
 }

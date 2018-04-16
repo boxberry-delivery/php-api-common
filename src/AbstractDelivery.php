@@ -1,17 +1,17 @@
 <?php
 
-namespace Dumkaaa\Boxberry\Api\Common;
+namespace Boxberry\Common;
 
-use Dumkaaa\Boxberry\Api\Common\Http\Client;
-use Dumkaaa\Boxberry\Api\Common\Message\Request\AbstractRequest;
-use Dumkaaa\Boxberry\Api\Common\Message\Response\AbstractResponse;
+use Boxberry\Common\Http\Client;
+use Boxberry\Common\Message\Request\AbstractRequest;
+use Boxberry\Common\Message\Response\AbstractResponse;
 use Symfony\Component\HttpFoundation\ParameterBag;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
 /**
  * Базовый класс достаки
  *
- * @package Dumkaaa\Boxberry\Api\Common
+ * @package Boxberry\Common
  */
 abstract class AbstractDelivery implements DeliveryInterface
 {

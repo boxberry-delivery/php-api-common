@@ -1,14 +1,14 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Message;
+namespace Boxberry\Common\Message;
 
-use Dumkaaa\Boxberry\Api\Common\Model\CreateFromAttributesInterface;
+use Boxberry\Common\Model\CreateFromAttributesInterface;
 
 /**
  * Интерфейс ответа
  *
- * @package Dumkaaa\Boxberry\Api\Common\Message
+ * @package Boxberry\Common\Message
  */
 interface ResponseInterface extends MessageInterface
 {

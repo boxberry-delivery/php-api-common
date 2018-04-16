@@ -1,17 +1,17 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Message\Response;
+namespace Boxberry\Common\Message\Response;
 
-use Dumkaaa\Boxberry\Api\Common\Message\RequestInterface;
-use Dumkaaa\Boxberry\Api\Common\Message\ResponseInterface;
-use Dumkaaa\Boxberry\Api\Common\Model\AbstractModel;
-use Dumkaaa\Boxberry\Api\Common\Model\CreateFromAttributesInterface;
+use Boxberry\Common\Message\RequestInterface;
+use Boxberry\Common\Message\ResponseInterface;
+use Boxberry\Common\Model\AbstractModel;
+use Boxberry\Common\Model\CreateFromAttributesInterface;
 
 /**
  * Абстрактный класс ответа
  *
- * @package Dumkaaa\Boxberry\Api\Common\Message\Response
+ * @package Boxberry\Common\Message\Response
  */
 abstract class AbstractResponse implements ResponseInterface
 {

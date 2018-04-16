@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Model;
+namespace Boxberry\Common\Model;
 
 trait CreateFromAttributesTrait
 {

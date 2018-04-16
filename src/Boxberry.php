@@ -1,8 +1,8 @@
 <?php
 
-namespace Dumkaaa\Boxberry\Api\Common;
+namespace Boxberry\Common;
 
-use Dumkaaa\Boxberry\Api\Common\Http\Client;
+use Boxberry\Common\Http\Client;
 
 /**
  * Class Boxberry
@@ -11,7 +11,7 @@ use Dumkaaa\Boxberry\Api\Common\Http\Client;
  * @method static DeliveryInterface create(string $class, Client $httpClient = null,
  *         \Symfony\Component\HttpFoundation\Request $httpRequest = null)
  * @codingStandardsIgnoreEnd
- * @package Dumkaaa\Boxberry\Api\Common
+ * @package Boxberry\Common
  */
 class Boxberry
 {

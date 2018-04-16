@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Exception;
+namespace Boxberry\Common\Exception;
 
 /**
  * Class RuntimeException
  *
- * @package Dumkaaa\Boxberry\Api\Common\Exception
+ * @package Boxberry\Common\Exception
  */
 class RuntimeException extends \Exception implements BoxberryException
 {

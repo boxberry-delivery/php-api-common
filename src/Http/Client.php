@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Http;
+namespace Boxberry\Common\Http;
 
 use Http\Client\HttpClient;
 use Http\Discovery\HttpClientDiscovery;
@@ -15,7 +15,7 @@ use Psr\Http\Message\UriInterface;
 /**
  * Клиент для запросов
  *
- * @package Dumkaaa\Boxberry\Api\Common\Http
+ * @package Boxberry\Common\Http
  */
 class Client implements RequestFactory
 {

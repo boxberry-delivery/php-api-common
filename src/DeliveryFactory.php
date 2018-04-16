@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common;
+namespace Boxberry\Common;
 
-use Dumkaaa\Boxberry\Api\Common\Exception\RuntimeException;
-use Dumkaaa\Boxberry\Api\Common\Http\Client;
+use Boxberry\Common\Exception\RuntimeException;
+use Boxberry\Common\Http\Client;
 use Symfony\Component\HttpFoundation\Request as HttpRequest;
 
 class DeliveryFactory

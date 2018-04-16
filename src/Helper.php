@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common;
+namespace Boxberry\Common;
 
 class Helper
 {
@@ -93,7 +93,7 @@ class Helper
         if (0 === strpos($className, '\\')) {
             $className = substr($className, 1);
         }
-        if (0 === strpos($className, 'Dumkaaa\\Boxberry\\Api\\')) {
+        if (0 === strpos($className, 'Boxberry\\')) {
             return trim(str_replace('\\', '_', substr($className, 8, -7)), '_');
         }
 
@@ -116,6 +116,6 @@ class Helper
             $shortName .= '\\';
         }
 
-        return '\\Dumkaaa\\Boxberry\\Api\\' . $shortName . 'Delivery';
+        return '\\Boxberry\\' . $shortName . 'Delivery';
     }
 }

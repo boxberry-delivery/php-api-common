@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common;
+namespace Boxberry\Common;
 
 interface DeliveryInterface
 {

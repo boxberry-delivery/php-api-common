@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Exception;
+namespace Boxberry\Common\Exception;
 
 /**
  * Class InvalidRequestException
  *
- * @package Dumkaaa\Boxberry\Api\Common\Exception
+ * @package Boxberry\Common\Exception
  */
 class InvalidRequestException extends \Exception implements BoxberryException
 {

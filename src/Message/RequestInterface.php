@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Message;
+namespace Boxberry\Common\Message;
 
 /**
  * Интерфейс запроса
  *
- * @package Dumkaaa\Boxberry\Api\Common\Message
+ * @package Boxberry\Common\Message
  */
 interface RequestInterface extends MessageInterface
 {

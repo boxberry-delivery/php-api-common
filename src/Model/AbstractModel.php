@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Dumkaaa\Boxberry\Api\Common\Model;
+namespace Boxberry\Common\Model;
 
 /**
  * Абстрактная модель
  *
- * @package Dumkaaa\Boxberry\Api\Common\Model
+ * @package Boxberry\Common\Model
  */
 abstract class AbstractModel implements CreateFromAttributesInterface
 {

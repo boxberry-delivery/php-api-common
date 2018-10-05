@@ -58,7 +58,7 @@ abstract class AbstractRequest implements RequestInterface
     protected $response;
 
     /**
-     * @param Client      $httpClient
+     * @param Client $httpClient
      * @param HttpRequest $httpRequest
      */
     public function __construct(Client $httpClient, HttpRequest $httpRequest)
@@ -128,7 +128,7 @@ abstract class AbstractRequest implements RequestInterface
     public function getValidationRules()
     {
         return [
-            'endPoint'  => new Assert\Required([
+            'endPoint' => new Assert\Required([
                 new Assert\NotNull(),
                 new Assert\Type(['type' => 'string']),
             ]),
@@ -156,7 +156,7 @@ abstract class AbstractRequest implements RequestInterface
     {
         return array_merge([
             'api_token' => $this->getToken(),
-            'method'    => $this->getMethod(),
+            'method' => $this->getMethod(),
         ], $this->getParameters());
     }
 

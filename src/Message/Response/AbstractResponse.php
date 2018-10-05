@@ -29,7 +29,7 @@ abstract class AbstractResponse implements ResponseInterface
      * AbstractResponse constructor.
      *
      * @param RequestInterface $request
-     * @param mixed            $data
+     * @param mixed $data
      */
     public function __construct(RequestInterface $request, $data)
     {

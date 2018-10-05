@@ -39,7 +39,7 @@ abstract class AbstractDelivery implements DeliveryInterface
     /**
      * Создает объект доставки
      *
-     * @param Client|null      $httpClient
+     * @param Client|null $httpClient
      * @param HttpRequest|null $httpRequest
      */
     public function __construct(Client $httpClient = null, HttpRequest $httpRequest = null)
@@ -112,7 +112,7 @@ abstract class AbstractDelivery implements DeliveryInterface
 
     /**
      * @param  string $key
-     * @param  mixed  $value
+     * @param  mixed $value
      *
      * @return $this
      */
@@ -127,7 +127,7 @@ abstract class AbstractDelivery implements DeliveryInterface
      * @see AbstractResponse
      *
      * @param string $class
-     * @param array  $parameters
+     * @param array $parameters
      *
      * @return AbstractRequest
      */

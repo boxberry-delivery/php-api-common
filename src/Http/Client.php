@@ -34,7 +34,7 @@ class Client implements RequestFactory
     private $requestFactory;
 
     /**
-     * @param null                $httpClient
+     * @param null $httpClient
      * @param RequestFactory|null $requestFactory
      */
     public function __construct($httpClient = null, RequestFactory $requestFactory = null)
@@ -47,7 +47,7 @@ class Client implements RequestFactory
      * Отправка GET-запроса
      *
      * @param UriInterface|string $uri
-     * @param array               $headers
+     * @param array $headers
      *
      * @return ResponseInterface
      */
@@ -61,9 +61,9 @@ class Client implements RequestFactory
      *
      * @param                                            $method
      * @param                                            $uri
-     * @param array                                      $headers
+     * @param array $headers
      * @param string|array|resource|StreamInterface|null $body
-     * @param string                                     $protocolVersion
+     * @param string $protocolVersion
      *
      * @return ResponseInterface
      */
@@ -80,9 +80,9 @@ class Client implements RequestFactory
     /**
      * @param                                      $method
      * @param                                      $uri
-     * @param array                                $headers
+     * @param array $headers
      * @param string|resource|StreamInterface|null $body
-     * @param string                               $protocolVersion
+     * @param string $protocolVersion
      *
      * @return RequestInterface
      */
@@ -105,8 +105,8 @@ class Client implements RequestFactory
     /**
      * Отправка POST-запроса
      *
-     * @param UriInterface|string                        $uri
-     * @param array                                      $headers
+     * @param UriInterface|string $uri
+     * @param array $headers
      * @param string|array|null|resource|StreamInterface $body
      *
      * @return ResponseInterface

@@ -8,6 +8,6 @@ namespace Boxberry\Common\Exception;
  *
  * @package Boxberry\Common\Exception
  */
-class BadMethodCallException extends \Exception implements BoxberryException
+class BadMethodCallException extends \DomainException implements BoxberryException
 {
 }

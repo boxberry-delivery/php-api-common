@@ -17,8 +17,8 @@ class DeliveryFactory
     /**
      * Создает новый объект доставки
      *
-     * @param string           $class
-     * @param Client|null      $httpClient
+     * @param string $class
+     * @param Client|null $httpClient
      * @param HttpRequest|null $httpRequest
      *
      * @return DeliveryInterface
